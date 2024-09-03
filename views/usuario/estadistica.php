@@ -11,9 +11,9 @@
 
 <div class="row justify-center">
     <div class="col">
-        <canvas id="charEnvios" width="100%"></canvas>
+        <canvas id="chartEnvios" width="100%"></canvas>
     </div>
 </div>
 
 
-<script src="<?= asset('./build/js/clientes/estadistica.js') ?>"></script>
+<script src="<?= asset('./build/js/usuario/estadistica.js') ?>"></script>

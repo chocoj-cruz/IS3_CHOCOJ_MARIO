@@ -11,15 +11,15 @@ if (!canvas) {
     const data = {
         labels: [], // Array de etiquetas
         datasets: [{
-            label: 'Compras',
+            label: 'Envios',
             data: [],
-            borderWidth: 5, // Ancho de borde
+            borderWidth: 10, // Ancho de borde
             backgroundColor: []
         }]
     };
 
     const chartClientes = new Chart(ctx, {
-        type: 'line',
+        type: 'bar',
         data: data,
         options: {
             responsive: true,
@@ -31,7 +31,7 @@ if (!canvas) {
         }
     });
 
-    const getEstadisticas = async () => {
+    const getEstadistica = async () => {
         try {
             const url = `/IS3_CHOCOJ_MARIO/API/detalle/estadistica`;
             const config = { method: 'GET' };
@@ -68,5 +68,5 @@ if (!canvas) {
         return `rgb(${r}, ${g}, ${b})`;
     };
 
-    btnActualizar.addEventListener('click', getEstadisticas);
+    btnActualizar.addEventListener('click', getEstadistica);
 }

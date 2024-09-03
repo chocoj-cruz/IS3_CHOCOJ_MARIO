@@ -36,6 +36,9 @@
                             <li>
                                 <a class="dropdown-item nav-link text-white " href="/IS3_CHOCOJ_MARIO/usuario"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Estadisticas</a>
                             </li>
+                            <li>
+                                <a class="dropdown-item nav-link text-white " href="/IS3_CHOCOJ_MARIO/auth"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Inicio de Sesion</a>
+                            </li>
                         
                     
                         
