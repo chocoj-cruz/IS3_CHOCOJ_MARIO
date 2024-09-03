@@ -19,7 +19,7 @@ if (!canvas) {
     };
 
     const chartClientes = new Chart(ctx, {
-        type: 'bar',
+        type: 'polarArea',
         data: data,
         options: {
             responsive: true,
