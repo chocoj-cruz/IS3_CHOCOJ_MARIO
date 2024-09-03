@@ -16,6 +16,8 @@ $router->get('/usuario', [DetalleController::class, 'estadistica']);
 $router->get('/API/detalle/estadistica', [DetalleController::class, 'detalleEnviosAPI']);
 $router->get('/logout', [LoginController::class, 'logout']);
 $router->get('/menu', [LoginController::class, 'menu']);
+$router->get('/registro', [LoginController::class, 'registro']);
+$router->post('/API/registro', [LoginController::class, 'registroAPI']);
 $router->post('/API/login', [LoginController::class, 'loginAPI']);
 
 
